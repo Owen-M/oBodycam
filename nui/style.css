@@ -1,6 +1,6 @@
 @font-face {
     font-family: dashFont;
-    src: url('https://cdn.discordapp.com/attachments/439161583214788609/564581465724157954/VCR_OSD_MONO_1.001.ttf');
+    src: url('./VCR_OSD_MONO_1.001.ttf');
     font-weight: bold;
 }
 
@@ -12,8 +12,6 @@
     left: 0px;
     top: 0px;
     font-family: "dashFont", "Lucida Console", Monaco, monospace;
-    background-image: url('https://cdn.discordapp.com/attachments/446717127332855818/573526355791052803/R8zLNJE.png');
-    /*background-color: #ccc;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,8 +19,8 @@
 
 #Bodycam_Clocktime {
     position: absolute;
-    right: 275px;
-    top: 60px;
+    right: 160px;
+    top: 30px;
     color: white;
     font-size: 40px;
     font-weight: bold;
@@ -31,10 +29,17 @@
 
 #Bodycam_Videonumber {
     position: absolute;
-    right: 275px;
-    top: 110px;
+    right: 160px;
+    top: 80px;
     color: white;
     font-size: 40px;
     font-weight: bold;
     text-align: right;
+}
+
+#Bodycam_Logo {
+    height: 90px;
+    right: 30px;
+    top: 30px;
+    position: absolute;
 }
